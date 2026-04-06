@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+
+parts:
+- caption: Running JEDI on supported HPCs
+  chapters:
+  - file: setups/derecho.ipynb
+
+- caption: JEDI hands-on examples
+  chapters:
+  - file: jedi_obs/ioda_format_converters.ipynb
+  - file: jedi_applications/run_hofx/run_hofx3D.ipynb
+  - file: jedi_applications/run_hofx/run_hofx4D.ipynb
+  - file: jedi_applications/run_hofx/run_hofx3D_with_filters.ipynb

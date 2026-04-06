@@ -1,0 +1,11 @@
+version: 1
+project:
+  title: JEDI hands-on examples
+  description: |
+    A series of practical examples for running the Joint Effort for Data Assimilation Intergration (JEDI)
+  github: https://github.com/pace-daaq/mpas-gocart2g-jedi-training
+      
+site:
+  template: book-theme
+  title: JEDI training and hands-on examples
+
