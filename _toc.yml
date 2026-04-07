@@ -5,13 +5,11 @@ format: jb-book
 root: README
 
 parts:
-- caption: Running JEDI on supported HPCs
+- caption: Running JEDI on Derecho
   chapters:
   - file: setups/derecho.ipynb
 
 - caption: MPAS-GOCART2G-JEDI hands-on examples
   chapters:
-  - file: jedi_obs/ioda_format_converters.ipynb
+  - file: obs/ioda_format_converters.ipynb
   - file: jedi_applications/run_hofx/run_hofx3D.ipynb
-  - file: jedi_applications/run_hofx/run_hofx4D.ipynb
-  - file: jedi_applications/run_hofx/run_hofx3D_with_filters.ipynb
